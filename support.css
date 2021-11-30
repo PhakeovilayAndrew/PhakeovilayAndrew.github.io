@@ -1,0 +1,42 @@
+html
+{
+    font-family: 'Calibri';
+}
+.index
+{
+    width: auto;
+    height: auto;
+    background-color:#FFC700;
+    border-style:solid;
+    font-style:oblique;
+    text-align:center;
+    font-size:75px;
+}
+
+    #cv {
+      width: 50%;
+      height: 100px;
+      background-color: #39A0FF;
+      border: solid black;
+      position: relative;
+    }
+    #cv:after {
+      content: '';
+      position: absolute;
+      top: 0px;
+      left: 99%;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-left: 20px solid #39A0FF;
+    }
+    #cv:before {
+      content: '';
+      position: absolute;
+      top: 0px;
+      left: 100%;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-left: 30px solid black;
+    }
